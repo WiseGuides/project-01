@@ -1,6 +1,7 @@
 body {
   background-image: url("../images/backgrounds/symphony.png");
-  /* background-size: cover; */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: gainsboro;
 }
 
 #header,
@@ -11,12 +12,10 @@ body {
 }
 
 .nav {
-  color: gainsboro;
   border-right: 1px solid darkolivegreen;
   padding-left: 4px;
   padding-right: 4px;
   margin-top: 18px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 12px;
   text-transform: uppercase;
   float: left;
@@ -38,10 +37,83 @@ body {
 
 #featured {
   height: 500px;
-  background-color: aqua;
 }
 
 #departments {
   height: 533px;
-  background-color: deeppink;
 }
+
+img {
+  float: left;
+}
+
+.featured-group {
+  position: absolute;
+  top: 25%;
+  margin-left: 42px;
+  max-width: 260px;
+}
+
+.featured-group * {
+  padding-top: 7px;
+}
+
+.featured-group .intro {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+}
+
+.featured-group .main {
+  font-size: 2.2em;
+  text-transform: uppercase;
+}
+
+.featured-group .summary {
+  font-size: 1.2em;
+}
+
+.featured-group hr {
+  border: .5px solid darkolivegreen;
+  padding: 0;
+}
+
+.featured-group .details {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 26.5px;
+}
+
+#departments {
+  background-color: #1d1919;
+}
+
+.department {
+  float: left;
+  padding-left: 26.5px;
+  padding-top: 26.5px;
+  padding-bottom: 26.5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.department img {
+  margin-bottom: 12px;
+}
+
+.department p {
+  text-transform: uppercase;
+  color: #9c9393;
+  font-size: .8em;
+  font-weight: 600;
+  padding-bottom: 8px;
+}
+
+.department h3 {
+  font-weight: 900;
+}
+
+<div id="departments">
+<div class="department">
+  <img src="./images/louvre-frise-d039un-panneau-mosaique_2.jpg" alt="Panneau mosaic">
+  <p>canson presents</p>
+  <h3>Artwork of the day</h3>
+</div>
+</div>
