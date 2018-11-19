@@ -13,8 +13,7 @@ body {
 
 .nav {
   border-right: 1px solid darkolivegreen;
-  padding-left: 4px;
-  padding-right: 4px;
+  padding: 0 4px 4px 4px;
   margin-top: 18px;
   font-size: 12px;
   text-transform: uppercase;
@@ -43,7 +42,7 @@ body {
   height: 533px;
 }
 
-img {
+#header img {
   float: left;
 }
 
@@ -109,11 +108,3 @@ img {
 .department h3 {
   font-weight: 900;
 }
-
-<div id="departments">
-<div class="department">
-  <img src="./images/louvre-frise-d039un-panneau-mosaique_2.jpg" alt="Panneau mosaic">
-  <p>canson presents</p>
-  <h3>Artwork of the day</h3>
-</div>
-</div>
